@@ -4,7 +4,6 @@ import { Slug } from '../Slug';
 import Header from '../../Common/Header';
 import HomePage from '../../Pages/HomePage';
 import AboutPage from '../../Pages/AboutPage';
-// import NotFoundPage from '../../pages/404/NotFoundPage';
 
 const Routes = () => {
   return (
@@ -13,7 +12,6 @@ const Routes = () => {
       <Switch>
         <Route exact path={Slug.home} component={HomePage} />
         <Route exact path={Slug.about} component={AboutPage} />
-        {/* <Route component={NotFoundPage} /> */}
       </Switch>
     </Fragment>
   );
